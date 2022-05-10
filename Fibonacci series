@@ -1,0 +1,16 @@
+n = int(input("Enter the number of terms you want: "))
+n1 = 0
+n2 = 1
+term = 0
+if n <= 0:
+    print("Please enter a valid positive integer")
+elif n == 1:
+    print(n1)
+else:
+    print("Fibonacci Series: ")
+    while term < n:
+        print(n1)
+        nth = n1+n2
+        n1=n2
+        n2=nth
+        term += 1
