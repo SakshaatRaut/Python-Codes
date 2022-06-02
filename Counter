@@ -1,0 +1,4 @@
+from collections import Counter
+str1 = "Mississippi"
+x = Counter(str1)
+print(str(x))
